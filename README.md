@@ -7,6 +7,8 @@ category table을 계층으로 관리하는 프로젝트입니다.
 
 ## 실행결과
 
+<img src="https://github.com/rlaclgh/miniproject_hierarchy_category/assets/46914232/880f2ae9-3e3c-4661-97ac-88ea5501fd87" width="600px"></img>
+
 ## 실행방법
 
 ```
