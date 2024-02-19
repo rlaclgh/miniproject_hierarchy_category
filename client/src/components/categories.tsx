@@ -27,13 +27,16 @@ const Categories = () => {
 
   return (
     <div className="p-4">
-      <div
-        onClick={() => {
-          setIsCreating((prev) => !prev);
-        }}
-      >
-        {!isCreating && <PlusSVG width={20} height={20} />}
-        {isCreating && <MinusSVG width={20} height={20} />}
+      <div className="flex gap-2 items-center">
+        <div>root</div>
+        <div
+          onClick={() => {
+            setIsCreating((prev) => !prev);
+          }}
+        >
+          {!isCreating && <PlusSVG width={20} height={20} />}
+          {isCreating && <MinusSVG width={20} height={20} />}
+        </div>
       </div>
       {isCreating && (
         <div className="flex gap-2 items-center">
